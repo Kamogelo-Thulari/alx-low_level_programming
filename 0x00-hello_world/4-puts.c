@@ -1,10 +1,10 @@
-#iclude <stdio.h>
-/
-*main - Entry point
-*Return: Always 0 (success)
-*/
-int main(void)
+#include <stdio.h>
+/*
+ * Programming is like building a  multilimgual puzzle, that was a  text from alx.
+ *  return 0
+ */
+int main (void)
 {
-	puts("\"Programming is like a mulitilingual puzzle");
-	return (0);
+	put ("\"Programming is like building a multilingual puzzle")
+	       return (0);
 }
