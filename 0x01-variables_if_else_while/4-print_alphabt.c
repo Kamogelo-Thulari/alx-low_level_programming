@@ -1,20 +1,17 @@
 #include <stdio.h>
-
+c
 /**
- * main - print the alphabet in lowercase,
- * followed by a new line, except q and e
- * Return: Always 0 (Success)
- */
+* main - Entry poimt
+*
+* Return: Always 0
+*/
 int main(void)
-{char ch = 'a';
-	while (ch <= 'z')
-	{
-		if (ch != 'e' && ch != 'q')
-		{
-			putchar(ch);
-		}
-		ch ==;
-	}
-	putchar('\n');
-	return (0);
+{
+char letter;
+for (letter = 'a'; letter <= 'z'; letter++)
+putchar(letter);
+for (letter = 'A'; letter <= 'Z'; letter++)
+putchar(letter);
+putchar('\n');
+return (0);
 }
