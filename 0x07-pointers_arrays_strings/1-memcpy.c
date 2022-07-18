@@ -1,15 +1,20 @@
 #include "main.h"
-#include <string.h>
 
 /**
-* _strncat -> function to append some charx
-* @dest: first param
-* @src: second param
-* @n: 3rd param
-* Return: string
-*/
-char *_strncat(char *dest, char *src, int n)
+ * _memcpy -  copies n bytes from memory area src
+ * to memory area dest
+ * @dest: destination
+ * @src: source
+ * @n: number of bytes to copy
+ * Return: a pointer to dest
+ */
+
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	strncat(dest, src, n);
+	unsigned int i;
+
+	for (i = 0; i < n; i++)
+		dest[i] = src[i];
+
 	return (dest);
 }
